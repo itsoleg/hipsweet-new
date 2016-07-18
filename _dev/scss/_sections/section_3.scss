@@ -1,0 +1,121 @@
+.section__3_pattern {
+  padding-bottom: 20px;
+  background: radial-gradient(at bottom left, rgba(255,173,30, .88), rgba(254,185,2, .88));
+}
+
+.section__3 {
+  background-image: url("../../img/images/pattern.png");
+}
+
+.section__3_title-wrap {
+  text-align: center;
+}
+
+.section__3_title {
+  font-family: 'ALS Malina';
+  font-size: rem(62px);
+  color: $dark-grey;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 5px;
+  max-width: 775px;
+  display: inline-block;
+}
+
+.section__3_desc {
+  color: #883213;
+  max-width: 775px;
+  display: inline-block;
+  margin-bottom: 62px;
+}
+
+.section__3_list {
+  @extend %clearfix;
+}
+
+.section__3_list_item {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.section__3_list_item_image-wrap {
+  width: 176px;
+  height: 176px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section__3_list_item_image {
+  position: absolute;
+}
+
+.section__3_list_item_image_1 {
+  width: 195px;
+  left: -9px;
+  top: -68px;
+}
+
+.section__3_list_item_image_2 {
+  margin-left: -88px;
+  margin-top: 12px;
+  width: 210px;
+}
+
+.section__3_list_item_image_3 {
+  margin-top: 2px;
+  margin-left: -96px;
+  width: 182px;
+}
+
+.section__3_list_item_image_4 {
+  width: 190px;
+  margin-left: -114px;
+  margin-top: 2px;
+}
+
+.section__3_list_item_image_5 {
+  width: 186px;
+  margin-left: -88px;
+  margin-top: 12px;
+}
+
+.section__3_list_item_image_6 {
+  margin-top: 4px;
+  width: 190px;
+  margin-left: -86px;
+}
+
+.section__3_list_item_image_7 {
+  width: 154px;
+  margin-left: -80px;
+  margin-top: -12px;
+}
+
+.section__3_list_item_image_8 {
+  margin-left: -96px;
+  width: 158px;
+  margin-top: 14px;
+}
+
+.section__3_list_item_title {
+  font-family: 'ALS Malina';
+  font-size: rem(32px);
+  color: $dark-grey;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.section__3_list_item_desc {
+  color: #ab594a;
+  font-size: rem(14px);
+  display: inline-block;
+  margin-top: 8px;
+  max-height: 108px;
+  max-width: 235px;
+  padding: 0 5px;
+  overflow: hidden;
+}

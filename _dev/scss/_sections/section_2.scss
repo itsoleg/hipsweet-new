@@ -1,0 +1,87 @@
+.section__2 {
+  height: 760px;
+  background: radial-gradient(at 76% 58%, #f7f5f7, #cbcdcc);
+}
+
+.section__2_container {
+  @extend %clearfix;
+}
+
+.offset_col {
+  width: 6.25%;
+  float: left;
+  min-height: 1px;
+}
+
+.section__2_content {
+  float: left;
+  width: 50%;
+}
+
+.section__2_content_why {
+  color: $blue;
+  font-family: 'ALS Malina';
+  font-size: rem(60px);
+  margin-top: 95px;
+  margin-bottom: 27px;
+  line-height: rem(79px);
+}
+
+.section__2_content_why_desc {
+  color: #747474;
+  font-size: rem(15px);
+  max-width: 412px;
+  line-height: rem(22px);
+}
+
+.section__2_image_wrap {
+  float: left;
+  width: 37.5%;
+}
+
+.section__2_image {
+  margin-top: 52px;
+  max-width: 100%;
+}
+
+.section__2_content_advantage_images-wrap {
+  @extend %clearfix;
+  margin-top: 65px;
+}
+
+.section__2_content_advantage {
+  width: 33.3%;
+  float: left;
+  position: relative;
+  font-family: 'ALS Malina';
+  color: $grey;
+}
+
+.section__2_content_advantage_hat {
+  width: 104px;
+  margin-left: -8px;
+  margin-top: -3px;
+}
+
+.section__2_content_advantage_leafs {
+  width: 120px;
+  margin-top: 3px;
+  margin-left: -6px;
+}
+
+.section__2_content_advantage_heart {
+  margin-left: 38px;
+}
+
+.section__2_content_advantage_desc-wrap {
+  @extend %clearfix;
+  margin-top: 18px;
+}
+
+.section__2_content_advantage_leafs_desc {
+  padding-left: 23px;
+}
+
+.section__2_content_advantage_heart_desc {
+  padding-left: 48px;
+}

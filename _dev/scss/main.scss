@@ -1,0 +1,29 @@
+//vars
+$orange: #fca211;
+$white: #fff;
+$blue: #2b2f5f;
+$grey: #747474;
+$dark-grey: #393939;
+
+//plugins
+@import "../../_dev/bower/slick-carousel/slick/slick.scss";
+
+// layout
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/adjustment";
+@import "_misc/normalize";
+@import "adaptive/media";
+
+
+//styles
+
+@import "_sections/section_1";
+@import "_sections/section_2";
+@import "_sections/section_3";
+@import "_sections/section_4";
+@import "_sections/section_5";
+@import "_sections/footer";
+
+//media
+
